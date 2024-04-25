@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Gallery Table</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        td {
+            border: 1px solid #ccc;
+            padding: 5px;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td><img src="image1.jpg" alt="Image 1"></td>
+            <td colspan="2"><img src="image2.jpg" alt="Image 2"></td>
+            <td rowspan="2"><img src="image3.jpg" alt="Image 3"></td>
+        </tr>
+        <tr>
+            <td rowspan="2"><img src="image4.jpg" alt="Image 4"></td>
+            <td><img src="image5.jpg" alt="Image 5"></td>
+            <td><img src="image6.jpg" alt="Image 6"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><img src="image7.jpg" alt="Image 7"></td>
+            <td><img src="image8.jpg" alt="Image 8"></td>
+        </tr>
+    </table>
+</body>
+</html>
